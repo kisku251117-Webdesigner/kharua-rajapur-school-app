@@ -1,0 +1,21 @@
+name: kharua_rajapur_school_app
+description: Kharua Rajapur High School mobile app
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - school_logo.png
+    - school_programme.jpg
+    - rangoli_activity.jpg
+    - students_teachers.jpg
+    - rangoli_competition.jpg
+    - school_event.jpg
